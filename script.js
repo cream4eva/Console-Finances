@@ -143,3 +143,5 @@ for (let i = 0; i < finances.length; i++) {
 
 console.log("Financial Analysis");
 console.log("----------------------------");
+let totalMonths = finances.length;
+console.log("Total Months: " + totalMonths);
