@@ -87,5 +87,11 @@ var finances = [
   ["Feb-2017", 671099],
 ];
 
+for (let i = 0; i < finances.length; i++) {
+  const [date, amount] = finances[i];
+  console.log(date);
+  console.log(amount);
+}
+
 console.log("Financial Analysis");
 console.log("----------------------------");
